@@ -1,5 +1,6 @@
 # Dependency confusion test
 Test all the Node.js projects of a Github account for the dependency confusion vulnerability.
+
 ## Install
 ```
 npm install -g confusion-test
@@ -8,10 +9,12 @@ npm install -g confusion-test
 ## Use
 To run this test it is mandatory to generate a Github token. Generate it [here](https://github.com/settings/tokens).
 
+Example for one account:
 ```
 $ echo 'notsag-dev' | confusion-test --token {{GITHUB_TOKEN}}
 ```
-or 
+
+Example for multiple accounts (one per line):
 ```
 $ cat accounts.txt | confusion-test --token {{GITHUB_TOKEN}}
 ```
