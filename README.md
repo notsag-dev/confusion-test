@@ -14,4 +14,4 @@ $ echo 'notsag-dev' | confusion-test --token {{GITHUB_TOKEN}}
 ## Results
 A file will be created with information about the packages that are available on the npm registry.
 
-Line format: `{{organization}};{{package-name};${package-version};{{repo}};${package.json path}}`
+Line format: `{{organization}};{{package-name};{{package-version}};{{repository}};{{package.json path}}`
