@@ -24,4 +24,4 @@ To disable console output add `--silent`.
 ## Results
 A file will be created with information about the packages that are available on the npm registry.
 
-Line format: `{{account}};{{package-name};{{package-version}};{{repository}};{{package.json path}}`
+Line format: `{{account}};{{package-name};{{package-version}};{{repository}};{{package-json-path}}`
