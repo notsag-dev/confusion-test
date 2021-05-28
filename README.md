@@ -13,7 +13,7 @@ $ echo 'notsag-dev' | confusion-test --token {{GITHUB_TOKEN}}
 ```
 or 
 ```
-$ cat orgs.txt | confusion-test --token {{GITHUB_TOKEN}}
+$ cat accounts.txt | confusion-test --token {{GITHUB_TOKEN}}
 ```
 
 To disable console output add `--silent`.
@@ -21,4 +21,4 @@ To disable console output add `--silent`.
 ## Results
 A file will be created with information about the packages that are available on the npm registry.
 
-Line format: `{{organization}};{{package-name};{{package-version}};{{repository}};{{package.json path}}`
+Line format: `{{account}};{{package-name};{{package-version}};{{repository}};{{package.json path}}`
