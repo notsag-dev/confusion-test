@@ -1,2 +1,7 @@
-# node-package-confusion-test
-Test for the Node.js package confusion vulnerability on an entire org
+# Package confusion test
+Test all projects of a Github organization for the node dependency confusion vulnerability.
+
+## Install
+```
+npm install -g confusion-test
+```
