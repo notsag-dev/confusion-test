@@ -1,4 +1,4 @@
-# Dependency confusion test (Node.js)
+# Dependency confusion test
 Test all the Node.js projects of a Github account for the dependency confusion vulnerability.
 
 ## Install
