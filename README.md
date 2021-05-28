@@ -1,5 +1,5 @@
 # Dependency confusion test
-Test all the Node.js projects of a Github user for the dependency confusion vulnerability. To run this test it is mandatory to count with a Github token.
+Test all the Node.js projects of a Github account for the dependency confusion vulnerability. To run this test it is mandatory to count with a Github token.
 
 ## Install
 ```
