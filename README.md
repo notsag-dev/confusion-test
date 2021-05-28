@@ -6,7 +6,7 @@ npm install -g confusion-test
 ```
 
 ## Use
-To run this test it is mandatory to count with a Github token.
+To run this test it is mandatory to generate a Github token. Generate it [here](https://github.com/settings/tokens).
 
 ```
 $ echo 'notsag-dev' | confusion-test --token {{GITHUB_TOKEN}}
